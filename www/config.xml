@@ -1,12 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="za.co.metrofi.MetroFiNote-1" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget 
+        id="za.co.metrofi.MetroFiNote1" 
+        version="1.0.1" 
+        xmlns="http://www.w3.org/ns/widgets" 
+        xmlns:gap="http://phonegap.com/ns/1.0">
     <name>MetroPushNotificationApp</name>
     <description>
         Hello World sample application that responds to the deviceready event.
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+        Dave P
     </author>
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+    <gap:platform name="winphone" />
     <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="phonegap-version" value="3.4.0" />
     <preference name="permissions" value="none" />
